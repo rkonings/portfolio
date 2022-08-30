@@ -1,0 +1,7 @@
+.skill_section {
+    @apply flex flex-col gap-2 w-full
+}
+
+.skill_section_title {
+    @apply font-bold text-xl mb-4
+}

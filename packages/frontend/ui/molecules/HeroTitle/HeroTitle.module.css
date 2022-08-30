@@ -1,0 +1,27 @@
+.title {
+    @apply text-7xl;
+    @apply font-black;
+    @apply uppercase;
+    @apply text-teal-800;
+    @apply tracking-tighter;
+    @apply break-words;
+    @apply text-left
+}
+
+.title > span {
+    display: block;
+}
+
+.sub {
+    @apply text-6xl;
+    @apply font-black;
+    @apply uppercase;
+    @apply text-teal-700;
+    @apply tracking-tighter;
+    @apply break-words;
+    @apply text-left
+}
+
+.sub > span {
+    display: block;
+}

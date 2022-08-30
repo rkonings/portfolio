@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+    .bar {
+       @apply h-4 bg-slate-800 animate-width duration-100 block origin-left
+    }
+}
+
+.skill {
+    @apply flex flex-row justify-between gap-8;
+}
+
+.name {
+    @apply leading-5 tracking-tighter font-light
+}
+
+.level {
+    @apply w-36 bg-slate-100 h-4
+}
+
+.level_1 {
+    @apply w-1/5 bar
+}
+
+.level_2 {
+    @apply w-2/5 bar
+}
+
+.level_3 {
+    @apply w-3/5 bar
+}
+
+.level_4 {
+    @apply w-4/5 bar
+}
+
+.level_5 {
+    @apply w-full bar
+}
